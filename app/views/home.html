@@ -1,0 +1,24 @@
+<form data-ng-submit="createImage(newimage)">
+  <label for="url">Enter Image Url:</label>
+  <input type="text" name="url" data-ng-model="newimage.image" class="input" placeholder="paste url here"
+  ></input>
+
+  <label for="title">Image Title Here:</label>
+  <input type="text" name="title" data-ng-model="newimage.title" placeholder="enter title here" class="input"></input>
+
+  <button type="submit">Submit</button>
+</form>
+
+<section data-ng-init="getImage()">
+
+ <h1>Your Fancy Collection</h1>
+ <p>double click on an image to remove it from the list</p>
+
+  <ul>
+      <li ng-repeat="image in images">
+          <p>{{image.title}}</p>
+          <img ng-src='{{image.image}}' ng-dblclick="remove($index)" />
+      </li>
+  </ul>
+
+</section>

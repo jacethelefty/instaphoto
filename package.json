@@ -1,0 +1,58 @@
+{
+  "name": "instaphoto",
+  "version": "1.0.0",
+  "description": "a simple inteface for end-users to display images from url links",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacethelefty/instaphoto"
+  },
+  "keywords": [
+    "rest",
+    "mongo",
+    "express"
+  ],
+  "author": "Jason Montoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacethelefty/instaphoto/issues"
+  },
+  "homepage": "https://github.com/jacethelefty/instaphoto#readme",
+  "dependencies": {
+    "angular-route": "^1.5.0",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.6"
+  },
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-mocha": "^2.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "html-loader": "^0.4.3",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.3.4",
+    "phantomjs-prebuilt": "^2.1.4",
+    "webpack": "^1.12.13",
+    "webpack-stream": "^3.1.0"
+  }
+}
